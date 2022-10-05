@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Quicksand:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#813772;
+    --secondary-color: #f5d0fe;
+    --ternary-color:  #fdf4ff;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--secondary-color);
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    color: var(--primary-color);
+    font-family: 'Calligraffitti', cursive;
+}
+
+input{
+    display: block;
+    margin: 0.5rem auto;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 0.3rem;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}   
+
+label{
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+button{
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--white-color);
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    margin: 1.5rem auto;
+    display: block;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+#output{
+    font-size: large;    
+    color: var(--primary-color);
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
